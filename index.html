@@ -1,37 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Position Absolute</title>
+	<title> Display-flex </title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div class="main-container">
-    	<nav class="navigation">
-    		<ul class="navigation-ul">
-    			<li class="navigation-li display-inline-block">
-    				<a href="#" class="navigation-a"> HOME </a>
-    			</li>
-    			<li class="navigation-li display-inline-block"> 
-    			    <a href="#" class="navigation-a"> NEWS </a>
-    			</li>
-    			<li class="navigation-li display-inline-block"> 
-    			    <a href="#" class="navigation-a"> ABOUT </a> 
-    			</li>
-    			<li class="navigation-li display-inline-block"> 
-    				<a href="#" class="navigation-a"> CONTACT </a>  
-    			</li>
-    		</ul>
-    		
-    	</nav>
-    	<div class="bg-logo"> </div>
-        <div class="white-box"> 
-        <div class="green-box"> </div>
-        <p class="text"> CSS properties - position </p>
-        <p class="read-more"> read more </p>
-    	 </div>
-    </div>
+	<header class="header">
+		<div class="container flex">
+		<a href="#">
+			<img class="logo" src="img/logo.svg">
+		</a>
+		<nav class="navigation"> 
+			<ul class="navigation-ul">
+			    <li class="navigation-li"> HOME 
+			    	<a class="navigation-a" href="#"></a>
+			    </li>
+			    <li class="navigation-li"> NEWS
+			    	<a class="navigation-a" href="#"></a>
+			    </li>
+			    <li class="navigation-li"> ABOUT 
+			    	<a class="navigation-a" href="#"></a>
+			    </li>
+			    <li class="navigation-li"> CONTACT
+			        <a class="navigation-a" href="#"></a>
+			    </li>
+			</ul>
+		</nav>
+		</div>
+   <section class="gray-bg">
+	    <div class="Banner">
+	        <img class="image-banner" src="img/banner.png">
+        </div>
+    </section>
+   <section class="blue-bg">
+    	<h3 class="text"> VIDEOS | view all videos </h3>
+        <div class="container flex"> 
+      	  <div class="wrapper flex">
+            <div class="box">
+       	       <p class="text-box"> EMBEDED YOUTUBE VIDEO GOES HERE</p>
+               </div>
+            <div class="box">
+       	       <p class="text-box"> EMBEDED YOUTUBE VIDEO GOES HERE</p>
+            </div>
+          </div> 
+       </div>
+   </section>
 
-</body> 
-</html>   
+
+   <section class="light-blue">
+   	    <h3 class="light-text"> NEWS | view all news </h3>
+        <div class="container">
+            <div class="wrapper-image flex">
+            	<div class="image-box"> 
+            		<img class="img" src="img/img1.png" alt="image">
+            		<h2 class="image-box-text"> Typography Lab </h2>
+            	</div>
+            	<div class="image-box"> 
+            		<img class="img" src="img/img2.png" alt="image">
+            		<h2 class="image-box-text"> Online Marketing</h2>
+            	</div>
+            	<div class="image-box"> 
+            		<img class="img" src="img/img3.png" alt="image">
+            		<h2 class="image-box-text"> C# coding </h2>
+            	</div>
+            	<div class="image-box"> 
+            		<img class="img" src="img/img4.png" alt="image">
+            		<h2 class="image-box-text"> Interface Design </h2>
+            	</div>
+            </div>
+        </div>   
+   </section>
+   <section class="white-bg">
+   	    <h3 class="black-text"> Featured | view all featured media </h3>
+   	    <div class="container ">
+   	    	<div class="wrapper-white">
+   	    		<div class="white-box">
+   	    			<h3 class="white-box-title"> Responsive Web Design </h3>
+   	    		  <div class="box1">
+   	    			<img  class="white-box-logo flex" src="img/logo1.svg" alt="logo">
+   	    			<p class="logo-text"> approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+   	    		</div>
+   	    		<h1 class="read-more"> read more </h1>
+   	    	</div>
+   	    		<div class="white-box">
+   	    			<h3 class="white-box-title"> App Development </h3>
+   	    		   <div class="box1">   	    			
+   	    			<img class="white-box-logo" src="img/logo2.svg" alt="logo">
+   	    			<p class="logo-text"> Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</p>
+   	    			
+   	    		   </div>
+   	    		   <h1 class="read-more"> read more </h1>
+   	    		</div>
+   	    	</div>
+        </div>
+   </section>
+        
+
+	</header>
+
+</body>
+</html>
